@@ -1,0 +1,23 @@
+
+# 根據分析結果，建議使用以下CSS selector:
+
+## 票種容器
+- 可能的選擇器: 
+  - 包含價格的父元素
+  - 包含票種名稱的容器
+
+## 數量選擇
+- input[type="text"] (如果是文字輸入)
+- input[type="number"] (如果是數字輸入)
+- select (如果是下拉選單)
+
+## 同意條款
+- input[type="checkbox"] (尋找name包含agree的)
+- #person_agree_terms (根據chrome_tixcraft.py)
+
+## 提交按鈕
+- button[type="submit"]
+- input[type="submit"]
+- 包含特定文字的按鈕
+
+注意: 需要進一步分析具體的HTML結構來確定精確的selector

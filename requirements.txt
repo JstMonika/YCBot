@@ -1,10 +1,18 @@
-undetected-chromedriver>=3.5.0
-selenium>=4.15.0
-pytesseract>=0.3.10
-easyocr>=1.7.0
-Pillow>=10.0.0
-requests>=2.31.0
-configparser>=5.3.0
-loguru>=0.7.0
-webdriver-manager>=4.0.0
-tkinter>=8.6.0 
+# 核心自動化套件
+undetected-chromedriver>=3.5.0  # 避免被偵測的 Chrome 自動化
+selenium>=4.15.0                 # Web 自動化框架
+
+# HTTP 請求和網頁處理
+requests>=2.31.0                 # HTTP 請求處理
+
+# 圖像處理套件（用於驗證碼處理）
+# TODO: 以下套件為未來功能預留，目前未使用
+# pytesseract>=0.3.10             # OCR 文字識別
+# easyocr>=1.7.0                  # 另一種 OCR 選擇
+# Pillow>=10.0.0                  # 圖像處理
+
+# 工具套件
+# TODO: 以下套件為未來功能預留
+# configparser>=5.3.0             # 設定檔處理（目前使用 json）
+# loguru>=0.7.0                   # 日誌記錄系統
+# webdriver-manager>=4.0.0        # WebDriver 管理器 
